@@ -14,16 +14,17 @@ body {
 }
 
 .container {
+    background: url(./plane.jpg) no-repeat center center/cover; 
     position: relative;
     width: 800px;
     height: 500px;
-    background: white;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 .form-container {
+    background: transparent;
     position: absolute;
     top: 0;
     width: 50%;
@@ -33,6 +34,7 @@ body {
 }
 
 .sign-up-container {
+    background: transparent;
     left: 0;
     width: 50%;         
     opacity: 0;
@@ -41,6 +43,7 @@ body {
 }
 
 .sign-in-container {
+    background: transparent;
     left: 0;
     width: 50%;         
     z-index: 2;
@@ -126,6 +129,7 @@ body {
 }
 
 h1 {
+    color: #ffffff;
     margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: bold;
